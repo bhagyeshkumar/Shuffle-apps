@@ -22,6 +22,7 @@ from exchangelib import (
 from exchangelib.protocol import BaseProtocol, NoVerifyHTTPAdapter
 from walkoff_app_sdk.app_base import AppBase
 
+datetime.datetime.now(datetime.timezone.utc)
 
 def default(o):
     """helpers to store item in json
